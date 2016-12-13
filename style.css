@@ -1,0 +1,32 @@
+html{
+	background: url(aaa.jpg);
+	background-size: cover;
+	font-family:arial;
+	text-align: center;
+	font-size: 12px;
+	background-repeat: no-repeat;
+}
+.clock-face {
+    height: 300px;
+    width: 300px;
+    background: transparent;
+    border: 10px solid #fff;
+    border-radius: 100%;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%);
+}
+.hand{
+
+	position: absolute;
+	width: 50%;
+	height: 6px;
+	background: yellow;
+	top:50%;
+	transform-origin: 100%;
+	transform: rotate(90deg);
+	transition: all 0.5s;
+	transition-timing-function: cubic-bezier(0.1,2.7,0.58,1);
+	
+}
